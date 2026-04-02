@@ -12,3 +12,16 @@ const lampadina = document.querySelector(`#lampadina`);
 
 // document.querySelector(`#interruttore`);
 const interruttore = document.querySelector(`#interruttore`);
+
+//  ho creato la funzione clickAccendiHandler, che sarà la funzione che verrà eseguita al
+// verificarsi dell'evento "click", per ora vuota, e ho aggiunto al selettore interruttore
+// addEventListener perchè è lui che "ascolta" l'evento che succederà che sarà scatenato
+// dal "click" e che attiverà la funzione clickAccendiHandler.
+
+interruttore.addEventListener(
+    "click" , clickAccendiHandler
+)
+
+function clickAccendiHandler() {
+
+}

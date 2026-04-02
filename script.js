@@ -23,5 +23,5 @@ interruttore.addEventListener(
 )
 
 function clickAccendiHandler() {
-
+    lampadina.src = "./img/yellow_lamp.png";
 }

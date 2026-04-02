@@ -19,3 +19,10 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+/* specifiche img lampadina */
+#lampadina {
+    display: block;
+    margin-bottom: 10px;
+    transform: translate(19px, 10px);
+}
